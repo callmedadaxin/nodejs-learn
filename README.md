@@ -10,14 +10,15 @@ nodejs相关学习大纲和demo汇总，在学习过程中不断完善添加
 ## 知识点
 ### 基础
 - 核心模块
+	- [fs](./核心模块/fs.md)
 	- http
-	- fs
 	- url
 	- path
 	- crypto
 	- child_process子进程
 	- 事件机制 events
 	- process对象
+- 路由
 - debug
 - mongoose
 - koa
