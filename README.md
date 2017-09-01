@@ -10,7 +10,7 @@ nodejs相关学习大纲和demo汇总，在学习过程中不断完善添加
 ## 知识点
 ### 基础
 - 核心模块
-	- [fs](./核心模块/fs.md)
+	- [fs](https://github.com/callmedadaxin/nodejs-learn/blob/master/notes/%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97/fs.md)
 	- http
 	- url
 	- path
