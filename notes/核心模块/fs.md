@@ -43,7 +43,7 @@ fs.readFile(path, (err, buffer) => {
 ```
 readFileSync
 
-与异步方法不同的是，readFileSync可以对文件进行编码设置,若不穿，则同样返回Buffer实例
+与异步方法不同的是，readFileSync可以对文件进行编码设置,若不传，则同样返回Buffer实例
 
 ```
 // 什么都不传
