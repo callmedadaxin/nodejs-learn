@@ -1,4 +1,4 @@
-# git-learn
+# node-learn
 nodejs相关学习大纲和demo汇总，在学习过程中不断完善添加
 
 ## 教程
