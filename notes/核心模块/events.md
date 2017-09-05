@@ -131,3 +131,6 @@ process.on('uncaughtException', (err) => {
   console.error('有错误')
 })
 ```
+
+## demo
+参考 demo/events/base.js

@@ -1,12 +1,12 @@
 const Emmiter = require('events')
 const emmiter = new Emmiter()
 
-// 基础使用
+// ----------- 基础使用 -----------
 emmiter.on('event', () => {
   console.log('accept the event')
 })
 
-// this指向EventEmitter
+// ----------- this指向EventEmitter -----------
 emmiter.on('event', function () {
   console.log(this)
   // EventEmitter {
@@ -22,7 +22,7 @@ emmiter.emit('event')
 // 后执行后续代码
 console.log('end')
 
-// 让对象继承Event Emmiter接口
+// ----------- 让对象继承Event Emmiter接口 -----------
 class Switch extends Emmiter {
   constructor (id) {
     super()
@@ -36,7 +36,7 @@ class Switch extends Emmiter {
 const s = new Switch('switch1')
 s.emit('close')
 
-// 默认事件
+// ----------- 默认事件 -----------
 emmiter.on('newListener', name => {
   console.log(`listen ${name}`)
 })
@@ -53,7 +53,7 @@ emmiter.removeListener('test', test)
 // listen test
 // remove test
 
-// 错误处理
+// ----------- 错误处理 -----------
 emmiter.on('error', (err) => {
   console.error('有错误')
 })
