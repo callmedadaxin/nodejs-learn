@@ -15,9 +15,9 @@ nodejs相关学习大纲和demo汇总，在学习过程中不断完善添加
 	- http
 	- url
 	- crypto
-	- child_process子进程
 	- [事件机制 events](https://github.com/callmedadaxin/nodejs-learn/blob/master/notes/%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97/events.md)
 - [process对象](https://github.com/callmedadaxin/nodejs-learn/blob/master/notes/process%E5%AF%B9%E8%B1%A1.md)
+- child_process子进程
 - 路由
 - debug
 - mongoose
