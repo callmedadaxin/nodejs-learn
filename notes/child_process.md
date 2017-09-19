@@ -2,7 +2,7 @@
 
 child_process模块用于新建子进程。主进程可以读取子进程运行的结果。其结果缓存在系统缓存中（最大200kb）
 
-## spwan
+## spawn
 
 ```
 const { spawn } = require('child_process')
